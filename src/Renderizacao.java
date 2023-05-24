@@ -46,7 +46,7 @@ public class Renderizacao extends JPanel
 			g.drawString(string, (int) (getWidth() / 2 - string.length() * 2.5f), (int) cobrinha.dim.getHeight() / 4);
 		}
 
-		string = "Paused!";
+		string = "Pausa!";
 
 		if (cobrinha.pausa && !cobrinha.sobre)
 		{
